@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avira Edits - Client Portal</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header-transparent">
+        <div class="container">
+          <a href="index.html" class="logo">
+            <span class="logo-icon">✻</span>
+            <span>Avira Edits</span>
+          </a>
+          <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="about.html">About</a>
+            <a href="client-portal.html" class="active">Client Portal</a>
+            <a href="#" class="cta-nav">Support</a>
+          </nav>
+          <div class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </header>
+
+  <main>
+    <section class="client-login fade-in">
+        <div class="login-container">
+        <h2>Client Portal</h2>
+        <p>Access your projects, upload files, and communicate with your editor</p>
+        
+        <form id="clientLoginForm">
+            <div class="form-group">
+            <label for="clientEmail">Email</label>
+            <input type="email" id="clientEmail" required>
+            </div>
+            <div class="form-group">
+            <label for="clientPassword">Password</label>
+            <input type="password" id="clientPassword" required>
+            </div>
+            <button type="submit" class="glow-on-hover">Login</button>
+            <div class="form-links">
+            <a href="#">Forgot password?</a>
+            <a href="#">Need an account?</a>
+            </div>
+        </form>
+        </div>
+        
+        <div class="portal-features container">
+        <div class="feature">
+            <i class="fas fa-cloud-upload-alt"></i>
+            <h3>Secure File Transfer</h3>
+            <p>Upload your footage and download final edits through our encrypted portal</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-comments"></i>
+            <h3>Direct Communication</h3>
+            <p>Message your editor with feedback and questions</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-tasks"></i>
+            <h3>Project Tracking</h3>
+            <p>See the status of all your projects in one place</p>
+        </div>
+        </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-about">
+          <div class="footer-logo">
+            <span class="logo-icon">✻</span>
+            <span>Avira Edits</span>
+          </div>
+          <p class="footer-about-text">Professional video editing services for creators, brands, and businesses. Transforming raw footage into compelling stories since 2018.</p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-title">Services</h3>
+          <ul class="footer-links">
+            <li><a href="services.html">YouTube Editing</a></li>
+            <li><a href="services.html">Social Media Ads</a></li>
+            <li><a href="services.html">Color Grading</a></li>
+            <li><a href="services.html">Motion Graphics</a></li>
+            <li><a href="services.html">View All Services</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-title">Company</h3>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-title">Support</h3>
+          <ul class="footer-links">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="faq.html">FAQs</a></li>
+            <li><a href="client-portal.html">Client Portal</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="copyright">&copy; <span id="copyright-year"></span> Avira Edits. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
